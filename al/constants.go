@@ -1,0 +1,40 @@
+package al
+
+const (
+	AL_NONE  = Enum(0)
+	AL_FALSE = Enum(0)
+	AL_TRUE  = Enum(1)
+
+	AL_FORMAT_MONO8    = Enum(0x1100)
+	AL_FORMAT_MONO16   = Enum(0x1101)
+	AL_FORMAT_STEREO8  = Enum(0x1102)
+	AL_FORMAT_STEREO16 = Enum(0x1103)
+
+	AL_SOURCE_RELATIVE  = Enum(0x202)
+	AL_CONE_INNER_ANGLE = Enum(0x1001)
+	AL_CONE_OUTER_ANGLE = Enum(0x1002)
+	AL_PITCH            = Enum(0x1003)
+	AL_POSITION         = Enum(0x1004)
+	AL_DIRECTION        = Enum(0x1005)
+	AL_VELOCITY         = Enum(0x1006)
+	AL_LOOPING          = Enum(0x1007)
+	AL_BUFFER           = Enum(0x1009)
+	AL_SOURCE_STATE     = Enum(0x1010)
+	AL_GAIN             = Enum(0x100A)
+
+	AL_DISTANCE_MODEL            = Enum(0xD000)
+	AL_INVERSE_DISTANCE          = Enum(0xD001)
+	AL_INVERSE_DISTANCE_CLAMPED  = Enum(0xD002)
+	AL_LINEAR_DISTANCE           = Enum(0xD003)
+	AL_LINEAR_DISTANCE_CLAMPED   = Enum(0xD004)
+	AL_EXPONENT_DISTANCE         = Enum(0xD005)
+	AL_EXPONENT_DISTANCE_CLAMPED = Enum(0xD006)
+
+	AL_DOPPLER_FACTOR = Enum(0xC000)
+	AL_SPEED_OF_SOUND = Enum(0xC003)
+
+	AL_VENDOR     = Enum(0xB001)
+	AL_VERSION    = Enum(0xB002)
+	AL_RENDERER   = Enum(0xB003)
+	AL_EXTENSIONS = Enum(0xB004)
+)
